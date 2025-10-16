@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    justify-content: center;
+
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.bye {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.form {
+    margin: 50px auto;
+    width: 600px;
+    height: 600px;
+    background-color: aliceblue;
+    display: none;
+    padding-top: 50px;
+}
+
+input {
+    margin: 20px 0px;
+    width: 400px;
+    height: 30px;
+}
+
+.form-text {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form-action {
+    color: black;
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    color: aliceblue;
+    font-weight: 600;
+    background-color: green;
+}
+
+.header_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_childent {
+    width: 50%;
+
+}
+
+.container_header {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    margin: auto;
+    background-color: cadetblue;
+
+}
+
+.header_childent ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-size: 500;
+}
+
+.header_chil {
+    margin-left: 100px;
+}
