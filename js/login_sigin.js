@@ -1,20 +1,25 @@
+
+
 export default function login_sigin() {
-    const btnLogin = document.querySelector('.header_login');
-    const btnSigin = document.querySelector('.header_sigin');
+
+
+    // nut dang  nhap o dau trang
+    const btnSigin = document.querySelector('.header_chil .header_sigin');
+    console.log('nut dang ky da co', btnSigin)
+
+
     const formLogin = document.querySelector('.form-login');
+    console.log('form login', formLogin)
     const formSigin = document.querySelector('.form');
-    const linkToSigin = document.querySelector('.sigin_href a'); 
-    // Ẩn cả hai form lúc đầu (nếu muốn)
+    console.log('form sigon', formSigin)
+    const linkToSigin = document.querySelector('.sigin_hrefs');
     formLogin.style.display = 'none';
-    formSigin.style.display = 'none'; 
-    // Khi click khu vực đăng nhập
-    btnLogin.addEventListener('click', () => {
-        formLogin.style.display = 'block';
-        formSigin.style.display = 'none';
-    }); 
+    console.log(formLogin.style.display);
+    formSigin.style.display = 'none';
     // Khi click khu vực đăng ký
     btnSigin.addEventListener('click', () => {
         formLogin.style.display = 'block';
+        console.log(formLogin.style.display);
         formSigin.style.display = 'none';
     });
 

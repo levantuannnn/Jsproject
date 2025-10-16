@@ -1,9 +1,15 @@
-//lam viec voi mang ham trong 
+// file scrip.js ĐÃ SỬA
 import loca from "./sway.js";
-import sway from "./sway.js";
 import login_sigin from "./login_sigin.js";
-loca();
-login_sigin();
+
+loca() // Bắt đầu tải nội dung
+    .then(() => {
+        // CHỈ khi nội dung HTML đã được tải và chèn xong vào DOM
+        login_sigin();
+    })
+    .catch(err => {
+        console.error('Lỗi khi tải trang:', err);
+    });
 var cout = [
     {
         id: 1,
