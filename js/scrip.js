@@ -1,8 +1,9 @@
 //lam viec voi mang ham trong 
 import loca from "./sway.js";
 import sway from "./sway.js";
-
+import login_sigin from "./login_sigin.js";
 loca();
+login_sigin();
 var cout = [
     {
         id: 1,

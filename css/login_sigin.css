@@ -1,0 +1,90 @@
+.form-login {
+    margin: 50px auto;
+    width: 420px;
+    height: 400px;
+    background-color: aliceblue;
+    display: none;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+
+.form {
+    margin: 50px auto;
+    width: 600px;
+    height: 600px;
+    background-color: aliceblue;
+    display: none;
+    padding-top: 30px;
+    display: none;
+}
+
+.form-text {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.form-text-login {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.form-action {
+    color: black;
+    text-align: center;
+}
+
+.header_login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:hover {
+    border: 3px solid green;
+}
+
+input:focus {
+    /* Đảm bảo đường viền vẫn là màu xanh lá cây khi được chọn */
+    border: 3px solid green;
+    /* Tùy chọn: Xóa bỏ bóng đổ focus mặc định của trình duyệt (thường gây ra màu đen/xanh lam) */
+    outline: none;
+}
+
+input {
+    margin: 20px 0px;
+    width: 400px;
+    height: 35px;
+    border: 2px solid green;
+}
+
+.sigin_href {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.sigin_href a {
+    text-decoration: none;
+
+}
+
+.container_login_sigin {
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+}
+
+/* .header_login {
+    background-color: aqua;
+} */
